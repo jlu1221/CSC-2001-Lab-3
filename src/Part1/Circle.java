@@ -13,10 +13,14 @@ public class Circle {
     }
 
     // getCenter method
+    // Purpose: This method return the center point of the circle
+    // Example: (Point(3, 5), 6) -> Point(3, 5)
     public Point getCenter() {
         return center;
     }
     // getRadius method
+    // Purpose: This method return the radius of the circle in a double
+    // Example: (Point(3,5), 7) -> 7
     public double getRadius() {
         return radius;
     }

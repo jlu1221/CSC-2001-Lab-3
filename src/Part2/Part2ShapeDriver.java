@@ -1,13 +1,15 @@
-package Part1;
+package Part2;
+
+import Part1.Point;
 
 import java.util.ArrayList;
 
-public class Part1ShapeDriver {
+public class Part2ShapeDriver {
     // methods
     // main
     public static void main(String[] args) {
         // array of Circle that holds 3 objects
-        Circle[] circles = {
+        Circle[] circles  = {
                 new Circle(new Point(2, 3), 5),
                 new Circle(new Point(1, 2), 3),
                 new Circle(new Point(6, 7), 8)
@@ -22,24 +24,24 @@ public class Part1ShapeDriver {
         ArrayList<Double> computedList = new ArrayList<>();
 
         // Circles
-        computedList.add(Utility.perimeter(circles[0]));
-        computedList.add(Utility.area(circles[0]));
+        computedList.add(circles[0].perimeter());
+        computedList.add(circles[0].area());
 
-        computedList.add(Utility.perimeter(circles[1]));
-        computedList.add(Utility.area(circles[1]));
+        computedList.add(circles[1].perimeter());
+        computedList.add(circles[1].area());
 
-        computedList.add(Utility.perimeter(circles[2]));
-        computedList.add(Utility.area(circles[2]));
+        computedList.add(circles[2].perimeter());
+        computedList.add(circles[2].area());
 
         // Rectangles
-        computedList.add(Utility.perimeter(rectangles[0]));
-        computedList.add(Utility.area(rectangles[0]));
+        computedList.add(rectangles[0].perimeter());
+        computedList.add(rectangles[0].area());
 
-        computedList.add(Utility.perimeter(rectangles[1]));
-        computedList.add(Utility.area(rectangles[1]));
+        computedList.add(rectangles[2].perimeter());
+        computedList.add(rectangles[2].area());
 
-        computedList.add(Utility.perimeter(rectangles[2]));
-        computedList.add(Utility.area(rectangles[2]));
+        computedList.add(rectangles[2].perimeter());
+        computedList.add(rectangles[2].area());
 
 
         // print largest and smallest value of the AL

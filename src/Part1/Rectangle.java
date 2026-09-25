@@ -14,10 +14,14 @@ public class Rectangle {
     }
 
     // getTopLeft() method
+    // Purpose: this method return a Point of the topLeft Point of the rectangle
+    // Example: (Point(1, 2), Point(3, 4) -> Point(1,2)
     public Point getTopLeft() {
         return topLeft;
     }
     // getBottomRight() method
+    // Purpose: this method return a Point of the bottomRight Point of the rectangle
+    // Example: (Point(1, 2), Point(3, 4) -> Point(3,4)
     public Point getBottomRight() {
         return bottomRight;
     }

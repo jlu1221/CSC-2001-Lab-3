@@ -20,6 +20,8 @@ public class Point {
         return y;
     }
         // non-static rotate
+    // Purpose: This method return a Point on the circle after swaping the coordinate (-y, x)
+    // Example: rotate(3, 4) -> rotate(-4, 3)
     public Point rotate() {
         return new Point(-y, x);
     }
